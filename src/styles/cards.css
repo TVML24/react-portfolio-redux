@@ -1,12 +1,87 @@
+:root {
+  --headercolor: #C5DCA5;
+  --backgroundgreen: #CAC890;
+  --headingred: #5F1A0F;
+  --textred: #890B35;
+}
+
+.body-container {
+  background: var(--headercolor);
+  display:flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+  width: 100%;
+}
+
 .card {
   width: 65%;
 }
 
+#main-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 .card-header {
   display: flex;
+  
 }
 
 .card-header img {
   height:300px;
   width: 800px;
+}
+
+.footer-container {
+  width: 100%;
+  align-self: flex-end;
+  background: var(--headingred);
+  margin-top: 37%;
+}
+
+.footer-container ul {
+  list-style: none;
+  float: right;
+  display: inline;
+  margin-top: 2%;
+  line-height: 2.5;
+  font-size: 22px;
+  background: var(--headingred);
+  width: 100%;
+}
+
+.footer-container li {
+  display: inline;
+  float: right;
+  padding-right: 20%;
+}
+
+.nav, .nav-tabs {
+  width: 100%;
+  display: flex;
+  background: #890B35;
+  align-self: center;
+}
+
+.nav ul {
+  display: inline;
+}
+
+#aboutmediv h1 {
+  padding-top: 3%;
+  padding-left: 8%;
+  padding-bottom: 3%;
+}
+
+#aboutmediv p {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 5%;
+}
+
+#aboutmediv img {
+  padding-left: 20%;
+  height: 400px;
 }
