@@ -1,0 +1,12 @@
+.card {
+  width: 65%;
+}
+
+.card-header {
+  display: flex;
+}
+
+.card-header img {
+  height:300px;
+  width: 800px;
+}
