@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-redux/static/css/main.37fdeb85.css",
+    "main.js": "/react-portfolio-redux/static/js/main.793bc366.js",
+    "index.html": "/react-portfolio-redux/index.html",
+    "main.37fdeb85.css.map": "/react-portfolio-redux/static/css/main.37fdeb85.css.map",
+    "main.793bc366.js.map": "/react-portfolio-redux/static/js/main.793bc366.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37fdeb85.css",
+    "static/js/main.793bc366.js"
+  ]
+}

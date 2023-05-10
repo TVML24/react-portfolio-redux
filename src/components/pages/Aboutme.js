@@ -6,7 +6,7 @@ export default function Aboutme() {
   return (
     <div id='aboutmediv'>
       <h1>About Me</h1>
-      <img id='meimg' src= {process.env.PUBLIC_URL + `/assets/images/me.jpg`} alt="Card cap"/>
+      <img id='meimg' src= {process.env.PUBLIC_URL + `/assets/images/me.JPG`} alt="Card cap"/>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
