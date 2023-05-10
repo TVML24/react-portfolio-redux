@@ -35,24 +35,30 @@ export default function Contact() {
     }
 
   return (
-    <div>
+    <div id="contact-me">
       <h1>Contact Page</h1>
       <form className="form">
+      <h2>Email</h2>
         <input
+          id="email"
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
           placeholder="email"
         />
+        <h2>Your name</h2>
         <input
+          id="name"
           value={Name}
           name="Name"
           onChange={handleInputChange}
           type="text"
           placeholder="Name"
         />
+        <h2>Your message</h2>
         <input
+          id="message"
           value={Message}
           name="Message"
           onChange={handleInputChange}

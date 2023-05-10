@@ -9,36 +9,31 @@
   background: var(--headercolor);
   display:flex;
   flex-direction: column;
-
   min-height: 100vh;
   width: 100%;
 }
 
 .card {
-  width: 65%;
+  width: 50%;
 }
 
 #main-body {
   width: 100%;
   display: flex;
-  flex-direction: column;
-}
-
-.card-header {
-  display: flex;
-  
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .card-header img {
-  height:300px;
-  width: 800px;
+  height:100%;
+  width: 100%;
 }
 
 .footer-container {
   width: 100%;
   align-self: flex-end;
   background: var(--headingred);
-  margin-top: 37%;
+  margin-top: 20%;
 }
 
 .footer-container ul {
@@ -50,6 +45,8 @@
   font-size: 22px;
   background: var(--headingred);
   width: 100%;
+  font-family: 'Amatic SC', cursive;
+  font-size: 32px;
 }
 
 .footer-container li {
@@ -69,6 +66,12 @@
   display: inline;
 }
 
+h1 {
+  font-family: 'Castoro Titling', cursive;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 #aboutmediv h1 {
   padding-top: 3%;
   padding-left: 8%;
@@ -84,4 +87,96 @@
 #aboutmediv img {
   padding-left: 20%;
   height: 400px;
+}
+
+#card-holder {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 4%;
+  flex-direction: row;
+  margin-left: 1%;
+}
+
+.card-container {
+  margin-bottom: 2%;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#port-heading {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 8%;
+}
+
+.form {
+  margin-left: 8%;
+  height:100%;
+  width: 100%;
+}
+
+.form h2 {
+  font-size: 22px;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  font-family: 'Pacifico', cursive;
+}
+
+#email {
+  margin-top: 2%;
+  height: 40px;
+  width: 100%;
+  display: block;
+}
+
+#name {
+  margin-top: 2%;
+  height: 40px;
+  width: 100%;
+  display: block;
+}
+
+#message {
+  margin-top: 2%;
+  height: 350px;
+  width: 100%;
+  display: block;
+  margin-bottom: 2%;
+}
+
+#contact-me {
+  margin-top: 3%;
+  width:50%;
+  height:100%;
+}
+
+#contact-me h1 {
+  padding-left: 16%;
+}
+
+#resume-div {
+  width: 60%;
+}
+
+#resume-div h1{
+  padding-top: 5%;
+  padding-bottom: 9%;
+  padding-left: 13%;
+}
+
+#resume-div h3 {
+  padding-left: 26%;
+  margin-bottom: 2%;
+  font-family: 'Amatic SC', cursive;
+  font-size: 42px;
+}
+
+#resume-div ul {
+  padding-left: 26%;
+  width: 100%;
+  margin-bottom: 5%;
 }

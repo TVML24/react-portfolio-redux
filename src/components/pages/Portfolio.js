@@ -49,8 +49,8 @@ const cardInfo = [
 export default function Portfolio() {
   return (
     <div>
-      <h1>Portfolio</h1>
-      <div>
+      <h1 id="port-heading">Portfolio</h1>
+      <div id="card-holder">
         {cardInfo.map(project => (
             <Card key={project.key} name={project.projName} repo={project.projRepo} deploy={project.projDeploy} img={project.projImg}/>
             ))}
